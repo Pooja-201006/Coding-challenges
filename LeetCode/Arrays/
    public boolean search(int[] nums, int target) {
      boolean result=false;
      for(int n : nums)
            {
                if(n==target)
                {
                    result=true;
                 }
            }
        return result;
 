@@ -1,0 +1,13 @@
+class Solution {
+    public boolean search(int[] nums, int target) {
+      boolean result=false;
+      for(int n : nums)
+            {
+                if(n==target)
+                {
+                    result=true;
+                 }
+            }
+        return result;
+    }
+}
